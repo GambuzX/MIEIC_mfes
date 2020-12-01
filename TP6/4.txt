@@ -1,0 +1,22 @@
+1.
+forall a \in Animals. exists_1 s \in Species. (a,s) \in animal-species 
+ou
+forall a \in Animals . |{ s | (a, s) \in animal-species }| = 1
+
+2.
+forall a \in Animals . |{ h | (a, h) \in animal-habitat }| <= 1
+
+3.
+forall h \in Habitat. exists a \in animals. (a,h) \in animal-habitat
+
+4.
+forall h \in Habitat. |{ a | (a,h) \in animal-habitat }| <= 100
+
+5.
+forall h in Habitat. forall (a1, h) (a2, h) \in animal-habitat. a1 != a2 ==> (a1,a2) in co-exist or (a2,a1) in co-exist
+
+6. 
+forall v in Veterinarians. exists s \n Species. (v,s) \in knows-cure
+
+7.
+forall h in Habitat. |{v \in Veterinarians. (h,v) \in coordinator-habitat}| = 1

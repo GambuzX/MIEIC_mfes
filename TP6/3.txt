@@ -1,0 +1,12 @@
+4.
+(a)
+{(jan,eggs), (jan,cheese), (jan,pizza)}
+
+(b)
+{(jan,eggs), (jan,cheese), (jan,pizza), (ken,pizza), (lisa,cheese), (lisa,salad), (lisa,pizza)}
+
+(c)
+{(jan,cheese), (jan,pizza), (ken,pizza), (lisa,cheese), (lisa,pizza)}
+
+(d)
+{}

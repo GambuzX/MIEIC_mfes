@@ -1,0 +1,41 @@
+1.
+a) Which of the following assertions are true?
+(a) T
+(b) T
+(c) T
+(d) T
+(e) T
+(f) T
+(g) T
+(h) F. m = 0
+(i) F
+(j) T
+
+b) Which of the following assertions are true?
+(a) F. 
+(b) T. m = 0
+(c) F.
+(d) T
+
+c) Apply the following substitutions
+(a) x < y+1
+(b) 
+    x < y [x+1, y+1 / x, y]
+    x < x+1 [y+1 / x]
+    y+1 < y+1+1
+    y < y+1
+
+(c) 
+
+(d) 
+    (x < y => x < z)[z+1 / y]
+    (x < z+1 => x < z) 
+
+(e) 
+    mantem-se igual. variaveis associadas a quantificadores nao sao substituidas.
+
+(f) 
+(g) 
+(h) 
+(i) 
+    m + 1 = 5 and forall n in N.n*n <= m
